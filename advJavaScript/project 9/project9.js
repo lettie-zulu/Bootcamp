@@ -7,7 +7,7 @@ console.log(mainList);
 let tagElements = document.querySelectorAll("div");
 
 for (let i = 0; i < tagElements.length; i++) {
-    console.log(tagElements[x].tagName);
+    console.log(tagElements[i].tagName);
     tagElements[i].id = "id" + (i + 1);
     if (i % 2) {
         tagElements[i].style.color = "red";
