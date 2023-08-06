@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+    <title>JS Tester</title>
+    <style>
+        .active {
+            display: block !important;
+        }
+        .myText {
+            display: none;
+        }
+        .title {
+            font-size: 1.5em;
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Title #1</div>
+        <div class="myText">Just some text #1</div>
+        <div class="title">Title #2</div>
+        <div class="myText">Just some text #2</div>
+        <div class="title">Title #3</div>
+        <div class="myText">Just some text #3</div>
+    </div>
+    <script>
+        let menuTitle = document.querySelectorAll(".title");
+        let numText = document.querySelectorAll(".myText");
+
+        menuTitle.forEach((titles) => {
+            titles.addEventListener("click", (e) => {
+                console.log(titles.nextElementSibling);
+                remover();
+                titles.nextElementSibling.classList.toggle("active");
+            })
+        })
+        
+        function remover() {
+            numText.forEach((el) => {
+                el.classList.remove("active");
+            })
+        }
+    </script>
+
+</body>
+</html>

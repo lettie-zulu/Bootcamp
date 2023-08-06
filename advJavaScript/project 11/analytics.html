@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Analytics</title>
+    <style>
+        .box {
+            width: 300px;
+            border: 15px solid green;
+            padding: 50px;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="first box">first</div>
+        <div class="box" id="second box">second</div>
+        <div class="box" id="third box">third</div>
+        <div class="box" id="fourth box">fourth</div>
+    </div>
+    <script>
+        let myArray = [];
+        let mainContainer = document.querySelector(".container");
+        mainContainer.addEventListener("click", getClicks);
+        function getClicks(e) {
+            let el = e.target;
+            if (el.id) {
+                let temp = {};
+                temp.content = el.textContent;
+                temp.id = el.id;
+                temp.tagName = el.tagName;
+                temp.class = el.className;
+                console.dir(el);
+                myArray.push(temp);
+                console.log(myArray);
+            }
+        }
+    </script>
+</body>
+
+</html>

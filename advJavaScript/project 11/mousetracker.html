@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mouse Position</title>
+    <style>
+        .mouse {
+            display: inline-block;
+            width: 300px;
+            height: 300px;
+            border: 1px solid green;
+            padding: 10px;
+        }
+
+        .active {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mouse">
+        <div id="output"></div>
+    </div>
+    <script>
+        const ele = document.querySelector(".mouse");
+        ele.addEventListener("mouseover", (e) => { e.target.classList.add("active"); });
+        ele.addEventListener("mouseout", (e) => { e.target.classList.remove("active"); });
+        ele.addEventListener("mousemove", coordin);
+        function coordin() {
+            let html = "X:" + event.clientX + " | Y:" + event.clientY;
+            document.getElementById("output").innerHTML = html;
+        }
+    </script>
+</body>
+
+</html>
