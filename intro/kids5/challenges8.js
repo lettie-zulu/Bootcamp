@@ -67,9 +67,11 @@ var areArraysSame = function(a, b){
         }
     }
 }
-areArraysSame([1, 2, 3], [1, 2, 3]);
+console.log(areArraysSame([1, 2, 3], [1, 2, 3]);
 
-areArraysSame([1, 2, 3], [1, 2, 3, 4]);
+console.log(areArraysSame([1, 2, 3], [1, 2, 3, 4]);
+
+console.log(areArraysSame([1,2,3],[4,5,6])),
 
 
 // Write your function here  
