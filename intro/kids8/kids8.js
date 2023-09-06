@@ -1,3 +1,47 @@
+// let ourFirstFunction = function(){
+//     alert('Hello');
+// }
+// ourFirstFunction();
+
+// function ourFirstFunction(){
+//     alert("Hello world!")
+// }
+// ourFirstFunction();
+
+// function sayHello(name){
+//     console.log("Hello ", name);
+// }
+// sayHello("Lettie");
+
+// function drawCats(howManyTimes,whatToDraw){
+//     for(let i=0; i<howManyTimes; i++){
+//     console.log(i, whatToDraw);
+// }
+// }
+// drawCats(15,"00");
+
+// function double(number){
+//     return number*2;
+// }
+// console.log(double(8) + double(10));
+// console.log(double(double(3)));
+
+// function product(x,y){
+//     return x*y;
+// }
+// console.log("The product is " + product(14,2));
+
+// function sportsMenAward(recipient, country){
+//     let sportsMan = {"recipient": recipient , "country": country}
+//     return  sportsMan;
+// }
+// let LsportsMan = sportsMenAward("Caster Semenya", "South Africa");
+// alert(LsportsMan.recipient + " received the an award for the best athlete in 2020");
+
+// function pickRandomWord(words){
+//     return words [Math.floor(Math.random()*words.length)];
+// }
+
 
 /*var randomBodyParts = ["Face", "Nose", "Hair"];
 var randomAdjectives = ["Smelly", "Boring", "Stupid"];
