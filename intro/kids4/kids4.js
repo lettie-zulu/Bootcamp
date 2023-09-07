@@ -1,11 +1,12 @@
-// let cat = {
+// Creating objects
+//let cat = {
 //     legs: 3,
 //     name: "Harmony",
 //     "full name": "Harmony Philomena Snuggly-Pants Morgan",
 //     color: "Tortoiseshell" 
 // };
-// console.log(cat["name"]);
-// console.log(cat.name);
+// console.log(cat["name"]);//Accessing values in objects
+// console.log(cat.name);//Dot notation
 // console.log(cat["full name"]);
 
 // let car = {
@@ -15,27 +16,37 @@
 // }
 // console.log(Object.values(car));
 // console.log(Object.values(cat));
+
+////Adding values to objects
 // let cat = {};
 // cat ["legs"] = 3;
 // cat ["name"] = "Harmony";
 // cat ["color"] = "Tortoishell";
 // console.log(cat);
+
+////Adding keys with dot notation
 // let cat2 ={}
 // cat2.legs = 4;
 // cat2.name = "Whiskers";
 // cat2.color = "Grey"
 // console.log(cat2);
+
+////Combining arrays and objects
 // let dinosaurs = [
 //     { name: "Tyrannosaurus Rex", period: "Late Cretaceous" },
 //     { name: "Stegosaurus", period: "Late Jurassic" },
 //     { name: "Plateosaurus", period: "Triassic" }
 //    ];
-//    console.log(dinosaurs[1]["name"]);
+//    console.log(dinosaurs[0]["name"]);
+
+////An array of friends
 // let anna = { name: "Anna", age: 11, luckyNumbers: [2, 4, 8, 16] };
 // let dave = { name: "Dave", age: 5, luckyNumbers: [3, 9, 40] };
 // let kate = { name: "Kate", age: 9, luckyNumbers: [1, 2, 3] };
 // let friends = [anna , dave, kate]
 // console.log(friends[0].luckyNumbers[1]);
+
+////Keeping track of owed money.
 // let owedMoney = {};
 // owedMoney["Jimmy"] =5;
 // owedMoney["Anna"] =7;
@@ -44,6 +55,8 @@
 // console.log(owedMoney.Jimmy);
 // owedMoney.Anna -=4;
 // console.log(owedMoney.Anna);
+
+////Storing information about your movies.
 // let movies = {
 //     "Finding Nemo": {
 //     releaseDate: 2003,

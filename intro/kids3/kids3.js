@@ -1,3 +1,4 @@
+////Creating arrays
 // let dinosaurs = [
 //     "T-Rex",
 //     "Velociraptor",
@@ -9,6 +10,7 @@
 //     "Diplodocus",
 //     "Compsognathus"
 //    ];
+////Accessing an array's elements
 //    console.log(dinosaurs[0]);
 //    console.log(dinosaurs[dinosaurs.length-1]);
 //    console.log(dinosaurs.indexOf("Diplodocus"));
@@ -33,14 +35,20 @@
 // dinosaurs[8] = "Compsognathus";
 // dinosaurs[33] = "Philosoraptor";
 // console.log(dinosaurs);
+
+////Mixing data types in an array.
 // let dinosaursAndNumbers = [3, "dinosaurs", ["triceratops", "stegosaurus", 3627.5], 10];
 // console.log(dinosaursAndNumbers[3]);
+
+////Finding the length of an array
 // let maniacs = [ "Yakko" , "Wacko" , "Dot" ];
 // console.log(maniacs[0]);
 // console.log(maniacs[1]);
 // console.log(maniacs[2]);
 // console.log(maniacs.length);
 // console.log(maniacs[maniacs.length-1]);
+
+////Adding elements to an array.
 // let animals = [];
 // animals.push("Cat");
 // console.log(animals);
@@ -52,12 +60,16 @@
 // console.log(animals);
 // let numberOfAnimals = animals.unshift("Polar Bear");
 // console.log("there are ", numberOfAnimals , "in my array");
+
+////Removing elements from an array.
 // let lastAnimal = animals.pop();
 // console.log(animals);
 // console.log(lastAnimal);
 // let firstAnimal = animals.shift();
 // console.log(animals);
 // console.log(firstAnimal);
+
+////Adding arrays
 // let furryAnimals =  ["Alpaca" , "Ring-tailed lemur" , "Yeti" ];
 // console.log(furryAnimals);
 // let scalyAnimals = ["Boa Constrictor" , "Godzilla"];
@@ -66,6 +78,8 @@
 // console.log(featheredAnimals);
 // let furryAndScurryAnimals = furryAnimals.concat(scalyAnimals, featheredAnimals);
 // console.log(furryAndScurryAnimals);
+
+////Finding the index of an element in an array.
 // let colors = ["red",
 // "green",
 // "blue",
@@ -75,11 +89,15 @@
 // console.log(colors.indexOf("purple"));
 // let insects = ["Bee" , "Ant" , "Bee" , "Bee" , "Ant"];
 // console.log(insects.indexOf("Bee" , 3));
+
+////Turning an array into a string
 // let boringAnimals = ["Monkey", "Cat", "Fish", "Lizard"];
 // let stringBoringAnimals = boringAnimals.join(" sees ")
 // console.log(stringBoringAnimals);
 // console.log(boringAnimals.join());
 // console.log(boringAnimals);
+
+////Finding your way home /Building the array with push.
 // let landmarks = [];
 // landmarks.push("My house");
 // landmarks.push("Front path");
@@ -90,6 +108,8 @@
 // landmarks.push("My old school");
 // landmarks.push("My friend's house");
 // console.log(landmarks);
+
+////Going in reverse with pop.
 // console.log(landmarks.pop());
 // console.log(landmarks.pop());
 // console.log(landmarks.pop());
@@ -99,10 +119,14 @@
 // console.log(landmarks.pop());
 // console.log(landmarks.pop());
 // console.log(landmarks);
+
+////Decision maker./rounding down with math.floor
 //console.log(Math.floor(Math.random()*4));
 // let randomFruits = ["Apple" , "Orange" , "Pear" , "Kiwi" , "Mango"];
 // let randomFruitsIndex = Math.floor(Math.random() * randomFruits.length);
 // console.log(randomFruits[randomFruitsIndex]);
+
+////Creating a random Programming challenges
 let randomBodyParts = [ "Face" , "Nose" , "Hair"];
 let randomAdjectives = ["Smelly" , "Boring" , "Stupid"];
 let randomAnimals = ["Dog" , "Mouse" , "Cow" , "Snake"];

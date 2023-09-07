@@ -1,9 +1,12 @@
+////If statement
 /*var name = "Nick";
 alert("hello " + name);
 if (name.length>7) {
   alert("Wow, you have a really long name!"); 
 }else {console.log("Your name isn't very long.");
 }
+
+////Chaining if else statements
 var lemonChicken = false;
 var beefWithBlackbean = false;
 var sweetAndSourPork = false;
@@ -18,6 +21,7 @@ if (lemonChicken) {
 }
 var name = prompt("what is your name?").toLowerCase();
 
+////Trying it out
 if (name === "lettie") {
     alert("Hello me!");
 } else if (name === "maggie" ) {
@@ -27,20 +31,25 @@ if (name === "lettie") {
 }else {
     alert("Hello stranger!");
 }
+////counting sheeps with a for loop.
 var sheepCounted = 0;
  for (var sheepCounted = 0; sheepCounted <10; sheepCounted++) {
     alert("I have counted " + sheepCounted + " sheep!");
     
  }   
 alert("Zzzzzzzzzz");
+
 var timesToSayHello = 3;
 for (var i = 0; i < timesToSayHello; i++) {
  console.log("Hello!");
 }
+
+////Using for loops with arrays and strings.
 var name = "Nick";
 for (var i = 0; i < name.length; i++) {
  console.log("My name contains the letter " + name[i] + ".");
 }
+////other ways to use for loops
 for (var x = 2; x < 10000; x = x * 2) {
     console.log(x);
    }
@@ -51,6 +60,7 @@ alert ("happy New Year!");
 for (var x = 3; x < 10,000; x = x * 3) {
     alert(x);
 }
+////programming challenges
 var animals = ["Cat", "Fish","Lemur", "Komodo Dragon"];
 
 for(var i = 0; i< animals.length;i++)
