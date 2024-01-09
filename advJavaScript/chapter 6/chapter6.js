@@ -5,7 +5,7 @@
 
 // sayHello();
 
-// //practice exercise 6.1
+// //practice exercise 6.2
 
 // let compliment = ["you hard working", "dont doubt yourself", "you are a winner"];
 
@@ -17,7 +17,7 @@
 //     alert(`${user} ${compliment}`);
 // }
 
-//exercise6.2
+//exercise 6.3
 // function calculate(num1, num2, operator) {
 //     if (operator === "*") {
 //         return num1 * num2;
@@ -103,7 +103,7 @@ for (let i = 0; i < 10; i++) {
 }
 console.log(resultsArr);*/
 
-//6.3
+//6.4
 // let resultsArr = [];
 // for (let i = 0; i < 10; i++) {
 //     let result = (i*5,i*i);
@@ -188,7 +188,7 @@ console.log(resultsArr);*/
 // }
 
 
-//6.4
+//6.5
 // ((name) => console.log(name))("Code College")
 
 // let val = 1000;
@@ -214,7 +214,7 @@ console.log(resultsArr);*/
 // }
 
 // getRecursive(3);
-//6.5
+//6.6
 // function calcFactorial(nr) {
 //     if (nr === 0) {
 //         return 1;
@@ -261,7 +261,7 @@ console.log(resultsArr);*/
 // }
 // doFlexiblestuff(sayHey);
 
-//6.6
+//6.7
 // const test = function(val){
 //     console.log(val);
 //     }
