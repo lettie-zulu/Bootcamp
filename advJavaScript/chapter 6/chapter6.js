@@ -270,3 +270,51 @@ console.log(resultsArr);*/
 //     console.log(val);
 //     }
 //     test1("hello 2");
+
+//example 
+// function doOuterFunctionStuff(nr) {
+//     doInnerFunctionStuff(nr);
+//     function doInnerFunctionStuff(x) {
+//         let z = 10;
+//     }
+//     console.log("Not accessible:", z);
+// }
+// doOuterFunctionStuff(2);
+
+// function doOuterFunctionStuff(nr) {
+//     doInnerFunctionStuff(nr);
+//     function doInnerFunctionStuff(x) {
+//         let z = 10;
+//     }
+// }
+// doInnerFunctionStuff(3);
+
+//6.7
+// let start = 10;
+// function loop1(val) {
+//     console.log(val);
+//     if (val < 1) {
+//         return;
+//     }
+//     return loop1(val - 1);
+// }
+// loop1(start);
+// function loop2(val) {
+//     console.log(val);
+//     if (val > 0) {
+//         val--;
+//         return loop2(val);
+//     }
+//     return;
+// }
+// loop2(start);
+
+//6.8
+// const test = function (val) {
+//     console.log(val);
+// }
+// test('hello 1');
+// function test1(val) {
+//     console.log(val);
+// }
+// test1("hello 2");
