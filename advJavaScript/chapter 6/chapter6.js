@@ -309,6 +309,19 @@ console.log(resultsArr);*/
 // }
 // loop2(start);
 
+//examples
+// function doingStuffAnonymously() {
+//     console.log("Not so secret though.");
+// }
+
+// function () {
+//     console.log("Not so secret though.");
+// };
+
+// let functionVariable = function () {
+//     console.log("Not so secret though.");
+// };
+
 //6.8
 // const test = function (val) {
 //     console.log(val);
