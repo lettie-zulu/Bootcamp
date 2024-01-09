@@ -101,6 +101,15 @@ function startsWith(element) {
 // console.log(bool_start);
 
 //8.3
+// const myArr = [1, 4, 5, 6];
+// const myArr1 = myArr.map(function (ele) {
+//     return ele * 2;
+// });
+// console.log(myArr1);
+// const myArr2 = myArr.map((ele) => ele * 2);
+// console.log(myArr2);
+
+//8.4
 // let sentence = "thIs will be capiTalized for each word";
 // console.log(capWords(sentence));
 
@@ -114,7 +123,7 @@ function startsWith(element) {
 //     return tempArr.join(" ");
 // }
 
-//8.4
+//8.5
 // let sentence = "I love JavaScript";
 // sentence = sentence.toLowerCase();
 
@@ -149,7 +158,7 @@ function startsWith(element) {
 // console.log("X:", x, "becomes", Math.ceil(x));
 // console.log("Y:", y, "becomes", Math.ceil(y));
 
-//8.5
+//8.6
 // console.log(Math.PI);
 // console.log(Math.ceil(5.7));
 // console.log(Math.round(5.7));
@@ -169,7 +178,7 @@ function startsWith(element) {
 // let d1 = Date.parse("June 5, 2021");
 // console.log(d1);
 
-//8.6
+//8.7
 // let Present = new Date(2023, 7, 13);
 // console.log(Present);
 
